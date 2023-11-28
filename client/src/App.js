@@ -6,7 +6,7 @@ import Detail from "./Views/Details/Detail";
 import Create from "./Views/Create/Create";
 import AboutMe from "./Views/AboutMe/AboutMe";
 import axios from "axios";
-axios.defaults.baseURL = "https://pokemon-jet-pi.vercel.app/";
+axios.defaults.baseURL = "http://localhost:3001/";
 
 function App() {
   return (
